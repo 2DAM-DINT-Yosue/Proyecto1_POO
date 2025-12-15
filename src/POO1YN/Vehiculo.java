@@ -36,6 +36,6 @@ public class Vehiculo {
     public String mostrarInfo() {
         return "=== Vehiculo ===\n" + 
                 "Marca:" + marca + "\n" +
-                "Color: " + color;
+                "Color: " + color + color;
     }
 }

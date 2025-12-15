@@ -18,10 +18,10 @@ public class Coche extends Vehiculo {
 
     @Override
     public String mostrarInfo() {
+        System.out.println("--> Mi primera modificación después de subirlo a GitHub");
         return "=== Coche ===\n" + 
                 "Marca:" + getMarca() + "\n" +
-                "Molor: " + getColor() + "\n" +
-                "Combustible: " + tipoCombustible + "\n" +
-                "--> Mi primera modificación después de subirlo a GitHub";
+                "Color: " + getColor() + "\n" +
+                "Combustible: " + tipoCombustible;
     }
 }
