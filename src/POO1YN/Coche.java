@@ -21,6 +21,7 @@ public class Coche extends Vehiculo {
         return "=== Coche ===\n" + 
                 "Marca:" + getMarca() + "\n" +
                 "Molor: " + getColor() + "\n" +
-                "Combustible: " + tipoCombustible;
+                "Combustible: " + tipoCombustible + "\n" +
+                "--> Mi primera modificación después de subirlo a GitHub";
     }
 }
